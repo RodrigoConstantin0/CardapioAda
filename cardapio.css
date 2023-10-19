@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none; 
+}
+html{
+  width: 100vw;
+  height: 100vh;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: bisque;
+}
+.cabecario {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(189, 123, 42);
+  padding-left: 30rem;
+
+}
+.logo{
+  width: 90px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+.logo h3{
+  color: rgb(97, 34, 34);
+  font-size: 2rem;
+}
+.lista-menu{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+ }
+.lista-menu li a {
+ padding: 3rem 1rem 2rem 1rem;
+ color:aliceblue;
+ font-size: 2rem;
+ text-decoration: uppercase;
+}
+.img-cafe header{
+  font-size: 4rem;
+  text-align: center;
+  color:rgb(97, 34, 34);
+  margin-top: 3rem;
+}
+.cardapio{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.cardapio li p {
+  font-size: 14px;
+}
+.cardapio li h4{
+  font-size: 16px;
+}
+.img-cafe button{
+  border: 1px solid rgb(97, 34, 34);
+  color: rgb(97, 34, 34);
+  background-color:bisque;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+footer{
+  text-align: center;
+  color:rgb(97, 34, 34);
+  margin-top: 150px;
+  font-size: 15px;
+}
